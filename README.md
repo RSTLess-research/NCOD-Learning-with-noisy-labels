@@ -3,6 +3,12 @@
 
 This repository contains an implementation of the loss function proposed in the paper "Combining Distance to Class Centroids and Outlier Discounting for Improved Learning with Noisy Labels". The loss function can be used to train  deep neural networks especially in the presence of noisy labels.
 
+
+To cite our work
+```bib
+
+```
+
 ## Usage
 
 To use the loss function, follow these instructions:
@@ -53,7 +59,7 @@ Note that in the case of the two-networked ensembles architecture, the size of `
 Create an object of the above class `ncodLoss` and get the weights of `u`. Assign some learning rate to `u` (for learning rate check the paper) with zero weight decay and create a separate optimizer for `u`. We used SGD. Let us call it `optimizer_u`.
 
 ### Step 5:
-
+```python
 During training of the network, optimize the weights of `u` as well. For example:
 
       for current_epoch in total_number_of_epochs:
@@ -81,7 +87,7 @@ During training of the network, optimize the weights of `u` as well. For example
       
               self.optimizer_u.step()
               self.your_own_optimizer.step()
-
+```
 
 
 
