@@ -6,6 +6,16 @@ This repository contains an implementation of the loss function proposed in the 
 
 To cite our work
 ```bib
+@misc{https://doi.org/10.48550/arxiv.2303.09470,
+  doi = {10.48550/ARXIV.2303.09470},
+  url = {https://arxiv.org/abs/2303.09470},
+  author = {Wani, Farooq Ahmad and Bucarelli, Maria Sofia and Silvestri, Fabrizio},
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Combining Distance to Class Centroids and Outlier Discounting for Improved Learning with Noisy Labels},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
 
 ```
 
